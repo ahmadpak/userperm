@@ -5,8 +5,10 @@ from frappe import _
 def get_data():
 	return [
 		{
+			"module_name": "User Activity Management",
 			"color": "green",
 			"icon": "octicon octicon-organization",
+			"type": "module",
 			"label": _("User Activity Management"),
 			"items":[
 				{
