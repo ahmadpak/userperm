@@ -10,7 +10,7 @@ def get_data():
                 {
                     "type": "doctype",
                     "name": "Date Access Control",
-                    "onboard": 1
+                    "onboard": 1,
                 }
             ]
 
