@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include userperm *.css
+recursive-include userperm *.csv
+recursive-include userperm *.html
+recursive-include userperm *.ico
+recursive-include userperm *.js
+recursive-include userperm *.json
+recursive-include userperm *.md
+recursive-include userperm *.png
+recursive-include userperm *.py
+recursive-include userperm *.svg
+recursive-include userperm *.txt
+recursive-exclude userperm *.pyc
