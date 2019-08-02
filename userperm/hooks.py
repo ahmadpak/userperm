@@ -31,6 +31,34 @@ app_license = "MIT"
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
+doctype_js = {
+    "Sales Order"   :   [
+        "utils/sales_invoice.js"
+    ],
+    "Delivery Note"   :   [
+        "utils/sales_invoice.js"
+    ],
+    "Sales Invoice" :   [
+        "utils/sales_invoice.js"
+    ],
+    "Purchase Order"   :   [
+        "utils/sales_invoice.js"
+    ],
+    "Purchase Receipt"   :   [
+        "utils/sales_invoice.js"
+    ],
+    "Purchase Invoice" :[
+        "utils/purchase_invoice.js"
+    ]
+}
+
+
+#doctype_list_js = {
+#    "Sales Invoice" : [
+#        "utils/sales_invoice_list.js"
+#    ]
+#}
+
 # Home Pages
 # ----------
 
